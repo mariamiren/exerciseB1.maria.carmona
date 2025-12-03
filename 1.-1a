@@ -1,0 +1,15 @@
+# exerciseB1.maria.carmona
+ejercicios del nivel B1
+
+def fibonacci(fibonacci_number):
+assert fibonacci(0) == 0,
+assert fibonacci(1) == 1, 
+assert fibonacci(6) == 8,
+assert fibonacci (10) == 55,
+def(test)_fibonacci_invalid_imput():
+with pytest.raises(ValueError):
+    fibonacci(-1)
+with pytest.raises(ValueError):
+    fibonacci(1.5)
+with pytest.raises(ValueError):
+    fibonacci("5")
